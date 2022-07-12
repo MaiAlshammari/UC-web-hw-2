@@ -1,0 +1,183 @@
+body {font-family: monospace;}
+
+.navbar {
+  width: 100%;
+  background-color:rgba(29, 68, 141, 0.719);
+  overflow:auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: rgb(204, 7, 7)
+  
+}
+
+.active {
+  background-color:gray
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+img
+{
+width: 300px;
+height: 500px;
+padding: 20px;
+}
+
+.one
+{
+border: 4px solid black  ;
+border-radius: 0%;
+margin: 20px;
+padding: 0;
+box-shadow: 1px 4px 5px rosybrown;
+}
+
+
+.two{
+border: 4px solid black  ;
+border-radius: 0%;
+margin: 20px;
+padding: 0;
+box-shadow: 1px 4px 5px rosybrown;
+}
+
+.three{
+
+border: 4px solid black  ;
+border-radius: 0%;
+margin: 20px;
+padding: 0;
+box-shadow: 1px 4px 5px rosybrown;
+}
+
+.container 
+{
+    width: 20%;
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap:nowrap;
+    margin:50px;
+    padding: 0;
+    text-align: center;
+    line-break:inherit;
+   
+}
+h1:hover {
+    background-color: rgb(219, 37, 37)
+  }
+  
+
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+  
+/* بونص */
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 660px;
+ 
+
+  }
+  /* بونص */
+  .flip-card-inner {
+    position: relative;
+    width: 300px;
+    height: 660px;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    
+
+  }
+  /* بونص */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+
+  }
+  /* بونص */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 300px;
+    height: 660px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+  }
+  /* بونص */
+  .flip-card-front {
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 660px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    margin:50px;
+    padding: 0;
+    line-break:inherit;
+    flex-direction: row;
+
+  }
+  /* بونص */
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+
+  }
+
+  footer {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background-color: #333333;
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    line-height: 40px;
+    font-size: 0.7em;
+    text-align: center;
+    bottom:0;
+}
+/* بونص */
+.pointer {cursor: pointer;}
